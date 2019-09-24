@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { ToastContainer } from 'react-toastify'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
@@ -24,7 +24,7 @@ function App() {
         </Router>
       </PersistGate>
     </Provider>
-  );
+  )
 }
 
-export default App;
+export default App
