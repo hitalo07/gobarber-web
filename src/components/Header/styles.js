@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #fff;
   padding: 0 30px;
-`
+`;
 
 export const Content = styled.div`
   height: 64px;
@@ -33,7 +33,7 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
   }
-`
+`;
 
 export const Profile = styled.div`
   display: flex;
@@ -59,7 +59,8 @@ export const Profile = styled.div`
   }
 
   img {
-    height: 33px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
   }
-`
+`;
