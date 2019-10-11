@@ -1,17 +1,17 @@
-import React from 'react'
-import { ToastContainer } from 'react-toastify'
-import { PersistGate } from 'redux-persist/integration/react'
-import { Provider } from 'react-redux'
-import { Router } from 'react-router-dom'
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import { PersistGate } from 'redux-persist/integration/react';
+import { Provider } from 'react-redux';
+import { Router } from 'react-router-dom';
 
-import './config/reactotronConfig'
+import './config/reactotronConfig';
 
-import Routes from './routes'
-import history from './services/history'
+import Routes from './routes';
+import history from './services/history';
 
-import { store, persistor } from './store'
+import { store, persistor } from './store';
 
-import GlobalStyle from './styles/global'
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         </Router>
       </PersistGate>
     </Provider>
-  )
+  );
 }
 
-export default App
+export default App;
